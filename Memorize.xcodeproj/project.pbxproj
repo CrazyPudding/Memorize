@@ -13,6 +13,8 @@
 		B9E6A19B2599AFE600AFBA56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E6A19A2599AFE600AFBA56 /* Assets.xcassets */; };
 		B9E6A19E2599AFE600AFBA56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9E6A19D2599AFE600AFBA56 /* Preview Assets.xcassets */; };
 		B9E6A1A12599AFE600AFBA56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E6A19F2599AFE600AFBA56 /* LaunchScreen.storyboard */; };
+		B9E6A1AB2599D63200AFBA56 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6A1AA2599D63200AFBA56 /* MemoryGame.swift */; };
+		B9E6A1AE2599D93100AFBA56 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6A1AD2599D93100AFBA56 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B9E6A19D2599AFE600AFBA56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9E6A1A02599AFE600AFBA56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9E6A1A22599AFE600AFBA56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E6A1AA2599D63200AFBA56 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		B9E6A1AD2599D93100AFBA56 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				B9E6A1942599AFE300AFBA56 /* AppDelegate.swift */,
 				B9E6A1962599AFE300AFBA56 /* SceneDelegate.swift */,
 				B9E6A1982599AFE300AFBA56 /* ContentView.swift */,
+				B9E6A1AA2599D63200AFBA56 /* MemoryGame.swift */,
+				B9E6A1AD2599D93100AFBA56 /* EmojiMemoryGame.swift */,
 				B9E6A19A2599AFE600AFBA56 /* Assets.xcassets */,
 				B9E6A19F2599AFE600AFBA56 /* LaunchScreen.storyboard */,
 				B9E6A1A22599AFE600AFBA56 /* Info.plist */,
@@ -147,7 +153,9 @@
 			files = (
 				B9E6A1952599AFE300AFBA56 /* AppDelegate.swift in Sources */,
 				B9E6A1972599AFE300AFBA56 /* SceneDelegate.swift in Sources */,
+				B9E6A1AB2599D63200AFBA56 /* MemoryGame.swift in Sources */,
 				B9E6A1992599AFE300AFBA56 /* ContentView.swift in Sources */,
+				B9E6A1AE2599D93100AFBA56 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
